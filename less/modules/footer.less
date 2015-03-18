@@ -1,0 +1,169 @@
+.t-footer {
+	margin: 0;
+	background-color: @primary;
+}
+
+.footer-logo {
+  padding: 5px 40px !important;
+}
+
+.subscribe-title {
+	.em(16);
+	font-size: @em;
+	text-align: center;
+	color: @text-secondary;
+	padding-top: 0;
+	text-transform: uppercase;
+	font-weight: light;
+	span {
+		color: @white;
+	}
+}
+
+.subscribe {
+	text-align: center;
+	padding-top: 46px;
+	.form-group {
+		width: 50%;
+	}
+	.input-subscribe {
+		width: 100%;
+		padding: 30px 25px;
+		.em(14);
+		font-size: @em;
+		font-weight: lighter;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.btn-subscribe {
+		display: inline-block;
+		background-color: @fourth;
+		color: @white;
+		text-transform: uppercase;
+		padding: 20px 90px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		margin-left: -5px;
+	}
+}
+
+.t-footer-bottom {
+	margin-top: 54px;
+	border-top: 2px solid @fifth;
+	font-size: 14px;
+}
+
+
+.logo-footer {
+	padding-top: 0;
+	display: block;
+	text-align: right;
+	margin-top: -15px;
+}
+
+.footer-content {
+	text-transform: uppercase;
+	color: @white;
+	.phone-number {
+		color: @fourth;
+	}
+}
+
+.list-block {
+	text-transform: uppercase;
+	color: @primary;
+	list-style: none;
+	padding-left: 0;
+	li {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+.list-block-inverted {
+	color: @white;
+}
+
+.list-block a {
+	text-transform: uppercase;
+	color: @primary;
+	list-style: none;
+	padding-left: 0;
+	text-decoration: none;
+
+	&:hover {
+		color: @fourth;
+	}
+}
+
+.list-block-inverted a {
+	color: @white;
+	&:hover {
+		color: @fourth;
+	}
+}
+
+.footer-section .footer-content:not(.footer-container ) {
+	border-right: 2px solid @secondary;
+}
+
+.t-footer-bottom .row{
+	padding-top: 55px;
+	padding-bottom: 10px;
+
+	div {
+		&:nth-of-type(1n+2) {
+			padding-top: 10px;
+			border-right: 2px solid @fifth;
+			height: 150px;
+		}
+		&:nth-child(3) {
+			
+		}
+		&:last-child {
+			padding-top: 30px;
+			border: 0;
+		}
+	}
+}
+
+.social li {
+	font-size: 19px;
+	list-style: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	a {
+		color: @white;
+		padding: 10px 15px;
+		border-radius: 50%;
+		border: 2px solid @white;
+		transition: all 0.8s;
+		&:hover {
+			color: @fourth;
+			border: 2px solid @fourth;
+		}
+	}
+}
+
+.social-inline li {
+	display: inline-block;
+	padding: 0 5px;
+}
+
+.developer{
+    	margin: 15px 50px 0 50px;
+  	float: right;
+}
+
+.social-inline {
+  padding-left: 10px;
+  padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.logo.logo-footer {
+    padding: 30px 0!important;
+  text-align: center;
+  width: 100% !important;
+
+}

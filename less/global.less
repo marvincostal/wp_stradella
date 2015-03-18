@@ -1,0 +1,152 @@
+//Variables
+@text-primary: #a7a7a7;
+@text-secondary: #ababab;
+@primary: #272727;
+@secondary: #363535;
+@tertiary: #f8f8f8;
+@fourth: #ed5452;
+@fifth: #5e5e5e;
+
+@white: #fff;
+
+@proxima: 'ProximaNovaSemibold', Arial, sans-serif;
+@italiano: 'italiannoregular', cursive;
+
+//Bootstrap Variables
+@font-family-base:        @proxima;
+@navbar-margin-bottom:    0;
+@font-size-base:          16;
+@navbar-default-link-active-bg: @primary;
+
+//Typography
+@font-face {
+    font-family: 'ProximaNovaSemibold';
+    src: url('fonts/proximanova-sbold.eot');
+    src: url('fonts/proximanova-sbold.eot') format('embedded-opentype'),
+         url('fonts/proximanova-sbold.woff') format('woff'),
+         url('fonts/proximanova-sbold.ttf') format('truetype'),
+         url('fonts/proximanova-sbold.svg#ProximaNovaSemibold') format('svg');
+}
+
+@font-face {
+    font-family: 'italiannoregular';
+    src: url('fonts/Italianno-Regular-webfont.eot');
+    src: url('fonts/Italianno-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Italianno-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Italianno-Regular-webfont.woff') format('woff'),
+         url('fonts/Italianno-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Italianno-Regular-webfont.svg#italiannoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Mixins
+.em(@px, @base: @font-size-base) {
+	@em: (@px / @base) * 1em;
+}
+
+.center-element() {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.small-logo {
+    height: 135px !important;
+    width: 145px !important;
+}
+
+//Global Class
+
+.container-lg {
+  max-width: 1400px !important;/*width: 1400px !important;       */
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+    img {
+        &:extend(.img-responsive);
+    }
+}
+
+.content-page {
+  font-size: 17px;
+  color: #4f4f4f;
+  line-height: 30px;
+
+  .blockqoute {
+    margin-bottom: 70px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 37px;
+  }
+}
+
+.page-title {
+  margin-bottom: 70px;
+  font-family: @proxima;
+  font-size: 32.56px;
+  color: #272727;
+  text-transform: uppercase;
+
+  span {
+    font-size: 45px;
+  }
+}
+
+.btn-white {
+  margin-top: 50px;
+  border: 2px solid #363535;
+  border-radius: 5px;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #363535;
+  font-size: 0.875em;
+  font-weight: bold;
+  padding: 15px 30px;
+  transition: all .5s;
+
+  &:hover {
+    background-color: #363535;
+    color: #fff;
+  }
+}
+
+.btn-book {
+    border: 2px solid #272727;
+    background-color: #ffffff;
+    padding: 10px 40px;
+    margin-top: 10px;
+    transition: all .5s;
+    a {
+      font-family: @proxima;
+      font-size: 14px;
+      color: #272727;
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      background-color: #272727;
+      
+      a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+}
+
+
+.bg-whiteflesh {
+  background-color: #f8f8f8;
+}
+
+
+
+
+
+
+
+
