@@ -49,7 +49,7 @@ get_header(); ?>
                 <option value="4">4</option>
               </select>
             </div>
-            <button type="submit" class="btn btn-booking-form">Check Availabilty</button>
+            <button type="submit" class="btn btn-booking-form">heck Availabilty</button>
         </form>
       </div><!--/.contain-lg -->
     </div><!--/.booking-container -->
