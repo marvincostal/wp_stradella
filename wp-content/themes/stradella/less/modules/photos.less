@@ -1,0 +1,47 @@
+.gallery-item {
+	position: relative;
+	margin-bottom: 30px;
+	cursor: pointer;
+
+	.img-holder {
+		border: 5px solid transparent;
+		overflow: hidden;
+		transition: all .3s ease-in-out;
+
+		img {
+			transition: all 1s ease-in-out;
+		}
+	}
+
+	&:hover {
+		.img-holder {
+			border: 5px solid #363535;
+
+			img {
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+
+.blueimp-gallery {
+  background: rgba(255, 255, 255, 0.8) !important ;
+}
+
+.slides {
+	.slide img {
+		  border: 5px solid #363535 !important ;
+	}
+}
+
+
+
+.blueimp-gallery>.prev, .blueimp-gallery>.next {
+  background: transparent !important ;
+  border: 3px solid transparent !important ;
+}
+
+.blueimp-gallery>.close, .blueimp-gallery>.title {
+  color: #000000 !important ;
+  text-shadow: 0 0 1px #000 !important ;
+}

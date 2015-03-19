@@ -1,0 +1,79 @@
+0000.000 (0) Opened log file at time: Wed, 18 Mar 2015 09:18:17 +0000 on http://stradella.wp
+0000.003 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.60 WP: 4.1.1 PHP: 5.4.4 (Darwin Designer26.local 14.1.0 Darwin Kernel Version 14.1.0: Thu Feb 26 19:26:47 PST 2015; root:xnu-2782.10.73~1/RELEASE_X86_64 x86_64) MySQL: 5.5.25 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 19.6M | 19.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 139494.1 Mb
+0000.007 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.044 (0) Requesting semaphore lock (d)
+0000.046 (0) Set semaphore last lock (d) time to 2015-03-18 09:18:17
+0000.048 (0) Semaphore lock (d) complete
+0000.073 (0) Backup run: resumption=0, nonce=00d366f31720, begun at=1426670297 (0s ago), job type=backup
+0000.076 (0) Scheduling a resumption (1) after 300 seconds (1426670597) in case this run gets aborted
+0000.110 (0) This backup run is not intended for files - skipping
+0000.111 (0) Beginning creation of database dump (WordPress DB)
+0000.133 (0) Table st_options: Total expected rows (approximate): 31
+0000.162 (0) Table st_options: Total rows added: 137 in 0.03 seconds
+0000.163 (0) Table st_options: finishing file (backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_options.table.gz - 86.8 Kb)
+0000.203 (0) Table st_users: Total expected rows (approximate): 1
+0000.207 (0) Table st_users: Total rows added: 1 in 0.00 seconds
+0000.209 (0) Table st_users: finishing file (backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_users.table.gz - 0.5 Kb)
+0000.213 (0) Table st_usermeta: Total expected rows (approximate): 17
+0000.217 (0) Table st_usermeta: Total rows added: 17 in 0.00 seconds
+0000.218 (0) Table st_usermeta: finishing file (backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_usermeta.table.gz - 0.9 Kb)
+0000.223 (0) Table st_commentmeta: Total expected rows (approximate): 0
+0000.233 (0) Table st_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.235 (0) Table st_commentmeta: finishing file (backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_commentmeta.table.gz - 0.3 Kb)
+0000.240 (0) Table st_comments: Total expected rows (approximate): 1
+0000.245 (0) Table st_comments: Total rows added: 1 in 0.00 seconds
+0000.247 (0) Table st_comments: finishing file (backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_comments.table.gz - 0.6 Kb)
+0000.251 (0) Table st_links: Total expected rows (approximate): 0
+0000.255 (0) Table st_links: Total rows added: 0 in 0.00 seconds
+0000.256 (0) Table st_links: finishing file (backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_links.table.gz - 0.4 Kb)
+0000.266 (0) Table st_postmeta: Total expected rows (approximate): 351
+0000.283 (0) Table st_postmeta: Total rows added: 332 in 0.02 seconds
+0000.285 (0) Table st_postmeta: finishing file (backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_postmeta.table.gz - 5.4 Kb)
+0000.289 (0) Table st_posts: Total expected rows (approximate): 97
+0000.316 (0) Table st_posts: Total rows added: 101 in 0.03 seconds
+0000.318 (0) Table st_posts: finishing file (backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_posts.table.gz - 5.2 Kb)
+0000.324 (0) Table st_term_relationships: Total expected rows (approximate): 1
+0000.327 (0) Table st_term_relationships: Total rows added: 1 in 0.00 seconds
+0000.329 (0) Table st_term_relationships: finishing file (backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_term_relationships.table.gz - 0.3 Kb)
+0000.356 (0) Table st_term_taxonomy: Total expected rows (approximate): 1
+0000.360 (0) Table st_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0000.361 (0) Table st_term_taxonomy: finishing file (backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_term_taxonomy.table.gz - 0.4 Kb)
+0000.367 (0) Table st_terms: Total expected rows (approximate): 1
+0000.370 (0) Table st_terms: Total rows added: 1 in 0.00 seconds
+0000.371 (0) Table st_terms: finishing file (backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_terms.table.gz - 0.4 Kb)
+0000.387 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_options.table.gz (1/11): adding to final database dump
+0000.406 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_users.table.gz (2/11): adding to final database dump
+0000.407 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_usermeta.table.gz (3/11): adding to final database dump
+0000.409 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_commentmeta.table.gz (4/11): adding to final database dump
+0000.410 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_comments.table.gz (5/11): adding to final database dump
+0000.412 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_links.table.gz (6/11): adding to final database dump
+0000.413 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_postmeta.table.gz (7/11): adding to final database dump
+0000.417 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_posts.table.gz (8/11): adding to final database dump
+0000.420 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_term_relationships.table.gz (9/11): adding to final database dump
+0000.421 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_term_taxonomy.table.gz (10/11): adding to final database dump
+0000.422 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db-table-st_terms.table.gz (11/11): adding to final database dump
+0000.423 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db.gz: finished writing out complete database file (72 Kb)
+0000.429 (0) Total database tables backed up: 11 (backup_2015-03-18-0918_Stradella_00d366f31720-db.gz, size: 101528, checksum (SHA1): e8eed85c1355a50a9ab80a4036bcdc13a7889eca)
+0000.455 (0) Saving backup history
+0000.461 (0) backup_2015-03-18-0918_Stradella_00d366f31720-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.464 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.468 (0) Cloud backup selection: none
+0000.469 (0) No remote despatch: user chose no remote backup service
+0000.471 (0) Recording as successfully uploaded: backup_2015-03-18-0918_Stradella_00d366f31720-db.gz (d66566307619087eb9c52ad8515950c6)
+0000.492 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0000.494 (0) Number of backup sets in history: 1
+0000.496 (0) Examining backup set with datestamp: 1426670297 (Mar 18 2015 09:18:17)
+0000.497 (0) 1426670297: db: this set includes a database (backup_2015-03-18-0918_Stradella_00d366f31720-db.gz); db count is now 1
+0000.499 (0) 1426670297: this backup set remains non-empty (0/1); will retain in history
+0000.511 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0000.513 (0) Resume backup (00d366f31720, 0): finish run
+0000.517 (0) Decremented the semaphore (d) by 1
+0000.519 (0) Semaphore (d) unlocked
+0000.520 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.543 (0) No email will/can be sent - the user has not configured an email address.
+0000.544 (0) The backup apparently succeeded and is now complete
+0000.000 (1) Opened log file at time: Wed, 18 Mar 2015 09:41:05 +0000 on http://stradella.wp
+0000.006 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.60 WP: 4.1.1 PHP: 5.5.10 (Darwin Philwebservicess-Mac-mini.local 12.5.0 Darwin Kernel Version 12.5.0: Sun Sep 29 13:33:47 PDT 2013; root:xnu-2050.48.12~1/RELEASE_X86_64 x86_64) MySQL: 5.5.34 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18M | 18.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 (1) Free space on disk containing Updraft's temporary directory: 836237.4 Mb
+0000.009 (1) This backup task is either complete or began over 2 days ago: ending (1426671665.35, )
