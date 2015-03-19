@@ -33,7 +33,7 @@ get_header(); ?>
           <a class="close">×</a>
       </div>
 
-      <a class="btn btn-white" href="#">Load More</a>
+      <a class="btn btn-white" href="#">oad More</a>
     </div><!-- /.content-page -->
   </div>
 <?php get_footer(); ?>
